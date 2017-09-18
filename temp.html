@@ -1,0 +1,84 @@
+
+<div class="timesheet">
+  <div class="header">
+    <h1 class="title">Timesheet Application</h1>
+    <label class="subtitle">Current Session:</label>
+    <p class="currenttime">03:02:00</p>
+    <br>
+    <label class="subtitle">Current Status:</label>
+    <p class="status">Clocked Out</p>
+    <br>
+    <input type="button" class="clockbutton" value="Clock In">
+    <input type="button" class="pausebutton" value="Pause">
+  </div>
+  <div class="body">
+    <table class="transactionstable">
+      <colgroup>
+        <col class="datetimecolumn">
+        <col class="statuscolumn">
+      </colgroup>
+      <tr>
+        <th>Time</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>8/1/17 5:00 PM</td>
+        <td>Clock out</td>
+      </tr>
+      <tr>
+        <td>8/1/17 8:00 AM</td>
+        <td>Clock in</td>
+      </tr>
+    </table><table class="timesheettable">
+      <colgroup>
+        <col class="checkboxcolumn">
+        <col class="datecolumn">
+        <col class="hourscolumn">
+        <col class="notescolumn">
+      </colgroup>
+      <tr>
+        <th></th>
+        <th>Date</th>
+        <th>Hours</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>7/31/17</td>
+        <td>7:45</td>
+        <td>At Home</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>7/30/17</td>
+        <td>8:15</td>
+        <td>In Office</td>
+      </tr>
+    </table><table class="invoicestable">
+      <colgroup>
+        <col class="datecolumn">
+        <col class="invoicenumbercolumn">
+        <col class="hourscolumn">
+        <col class="amountcolumn">
+      </colgroup>
+      <tr>
+        <th>Date</th>
+        <th>Invoice#</th>
+        <th>Hours</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>7/29/17</td>
+        <td>10002</td>
+        <td>40</td>
+        <td>$2,000</td>
+      </tr>
+      <tr>
+        <td>7/27/17</td>
+        <td>10001</td>
+        <td>20</td>
+        <td>$1,000</td>
+      </tr>
+    </table>
+  </div>
+</div>
